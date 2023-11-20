@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>Login</h1>
+      <form action="#">
+
+        <div class="inputField">
+          <label for="email"><i class="fa-solid fa-envelope"></i></label>
+          <input type="email" name="email" id="email" placeholder="e.g. abc@domain.com" required>
+        </div>
+
+        <div class="inputField">
+          <label for="password"><i class="fa-solid fa-lock"></i></label>
+          <input type="password" name="password" id="password" autofocus placeholder="********" minlength="8" required>
+        </div>
+
+        <p><a href="#" id="forgot_pass">Forgot your password?</a></p>
+
+        <div class="btn">
+          <button id="sign_in">Sign In <i class="fa-solid fa-right-to-bracket"></i></button>
+        </div>
+
+      </form>
+
+      <div class="link">
+        <p>Don't have an account? <a href="register.html" id="signup_link">Register</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
